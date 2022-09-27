@@ -1,0 +1,3 @@
+{
+    "extends": "@sumdoo/tsconfig/tsconfig.web.json"
+}
