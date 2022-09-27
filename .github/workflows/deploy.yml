@@ -27,11 +27,11 @@ jobs:
         run: pnpm install
 
       - name: Build
-        run: pnpm build
+        run: pnpm docs:build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.ACTION_SECRET }}
-          publish_dir: ./.vitepress/dist
+          publish_dir: docs/.vitepress/dist
 
