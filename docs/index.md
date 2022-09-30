@@ -1,26 +1,29 @@
-# Hello VitePress
+---
+layout: home
 
-Github actions 自动化部署 vitepress
+hero:
+  name: Note
+  text: 你好，世界！
+  tagline: console.log('Hello World!')
+  image:
+    src: /logo.svg
+    alt: Logo
+  actions:
+    - theme: brand
+      text: 进去瞧瞧
+      link: /guide/git/basic
+    - theme: alt
+      text: 访问 Github
+      link: https://github.com/beckZgh/note
 
-## 待支持功能
-
-- 右键菜单
-- 拖拽组件
-- 水印组件
-- 引导
-- 剪切板
-- 打印
-- Excel
-- 方法下载
-- 方法上传
-- 方法预览图片
-- 水波纹
-- 图片裁剪
-- 相对时间
-- 地区
-- 二维码
-- 密码强度
-
-- 请求
-    - 失败重试
-    - 重复取消
+features:
+  - icon: ⚡️
+    title: Vite, The DX that can't be beat
+    details: Lorem ipsum...
+  - icon: 🖖
+    title: Power of Vue meets Markdown
+    details: Lorem ipsum...
+  - icon: 🛠️
+    title: Simple and minimal, always
+    details: Lorem ipsum...
+---

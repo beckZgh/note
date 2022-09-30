@@ -9,12 +9,25 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
     base       : '/note/',
-    title      : 'Web Note',
+    lang       : 'zh-CN',
     description: '开发笔记',
     themeConfig: {
+        logo           : '/logo.svg',
+        siteTitle      : 'Note',
         outlineTitle   : '标题目录',
         lastUpdatedText: '最后更新时间',
-        nav            : [
+        socialLinks    : [
+            { icon: 'github', link: 'https://github.com/beckZgh/note' },
+        ],
+        footer: {
+            message  : ' Released under the MIT License.',
+            copyright: 'Copyright © 2022-PRESENT 朱国华',
+        },
+        docFooter: { // 上下篇文本
+            prev: '上一篇',
+            next: '下一篇',
+        },
+        nav: [
             { text: '开发指南', link: '/guide/git/basic' },
             { text: '前端开发', link: '/front-end-dev/'  },
             { text: '后端开发', link: '/back-end-dev/'   },
