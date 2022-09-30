@@ -18,12 +18,12 @@ hero:
 
 features:
   - icon: ⚡️
-    title: Vite, The DX that can't be beat
-    details: Lorem ipsum...
+    title: 指南
+    details: 记录所实践的最佳，养成良好的编码风格
   - icon: 🖖
-    title: Power of Vue meets Markdown
-    details: Lorem ipsum...
+    title: 基础
+    details: 愿坚持的方向是正确的方向
   - icon: 🛠️
-    title: Simple and minimal, always
-    details: Lorem ipsum...
+    title: 行业
+    details: 拥有技术是起步、解决人们的痛点是目标
 ---
