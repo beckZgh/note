@@ -13,7 +13,7 @@ hero:
       text: 进去瞧瞧
       link: /guide/git/basic
     - theme: alt
-      text: 访问 Github
+      text: 访问我的 Github
       link: https://github.com/beckZgh/note
 
 features:
