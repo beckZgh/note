@@ -1,3 +1,8 @@
 {
-    "extends": "@sumdoo/tsconfig/tsconfig.web.json"
+    "extends": "@sumdoo/tsconfig/tsconfig.web.json",
+    "include": ["docs/**"],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
 }
