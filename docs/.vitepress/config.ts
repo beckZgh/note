@@ -14,23 +14,25 @@ export default defineConfig({
     themeConfig: {
         logo           : '/logo.svg',
         siteTitle      : 'Note',
-        outlineTitle   : '标题目录',
+        outlineTitle   : '大纲',
         lastUpdatedText: '最后更新时间',
         socialLinks    : [
             { icon: 'github', link: 'https://github.com/beckZgh/note' },
         ],
         footer: {
-            message  : ' Released under the MIT License.',
+            message  : 'Released under the MIT License.',
             copyright: 'Copyright © 2022-PRESENT 朱国华',
         },
-        docFooter: { // 上下篇文本
+        docFooter: {
             prev: '上一篇',
             next: '下一篇',
         },
         nav: [
-            { text: '开发指南', link: '/guide/git/basic' },
-            { text: '前端开发', link: '/front-end-dev/'  },
-            { text: '后端开发', link: '/back-end-dev/'   },
+            { text: '笔记', link: '/guide/git/basic'    },
+            // { text: '前端', link: '/front-end-dev/'     },
+            // { text: '后端', link: '/back-end-dev/'      },
+            // { text: '文章', link: '/articles/'          },
+            { text: '书签', link: '/bookmark/often/web' },
         ],
         sidebar: {
             '/guide/': [
@@ -53,23 +55,53 @@ export default defineConfig({
                     ],
                 },
                 // {
-                //     text : '环境搭建',
+                //     text : 'Vscode',
                 //     items: [
-                //         { text: 'Window10 前端开发环境搭建', link: '/guide/env/window-font-dev' },
+                //         { text: '.editorconfig' , link: '/guide/vscode/editconfig' },
+                //         { text: 'settings.json' , link: '/guide/vscode/settings'   },
+                //         { text: '常用插件'      , link: '/guide/vscode/plugins'    },
+                //     ],
+                // },
+                // {
+                //     text : 'Windows',
+                //     items: [
+                //         { text: '右键打开 cmd 配置' , link: '/guide/window/right-click-to-open-cmd' },
+                //     ],
+                // },
+            ],
+
+            // 网络书签
+            '/bookmark/': [
+                {
+                    text : '站点导航',
+                    items: [
+                        { text: '前端开发', link: '/bookmark/often/web'    },
+                        { text: 'Node开发', link: '/bookmark/often/node'   },
+                        { text: '学习资源', link: '/bookmark/often/learn'  },
+                        { text: '设计资源', link: '/bookmark/often/online' },
+                    ],
+                },
+                // {
+                //     text : '学习网站',
+                //     items: [
+                //         { text: '文档类', link: '/bookmark/doc-nav/basic'  },
+                //         { text: '视频类', link: '/bookmark/doc-nav/weekly' },
+                //     ],
+                // },
+                // {
+                //     text : '设计资源',
+                //     items: [
+                //         { text: '组件库'        , link: '/bookmark/example/ui'       },
+                //         { text: 'Sass系统'      , link: '/bookmark/example/sass'     },
+                //         { text: '后台管理模板'  , link: '/bookmark/example/template' },
                 //     ],
                 // },
                 {
-                    text : 'Vscode',
+                    text : '好文收录',
                     items: [
-                        { text: '.editorconfig' , link: '/guide/vscode/editconfig' },
-                        { text: 'settings.json' , link: '/guide/vscode/settings'     },
-                        { text: '常用插件'      , link: '/guide/vscode/plugins'      },
-                    ],
-                },
-                {
-                    text : 'Windows',
-                    items: [
-                        { text: '右键打开 cmd 配置' , link: '/guide/window/right-click-to-open-cmd' },
+                        // { text: '开发环境' , link: '/bookmark/question/vue' },
+                        { text: 'Vue  相关' , link: '/bookmark/question/vue'  },
+                        { text: 'Vite 相关' , link: '/bookmark/question/vite' },
                     ],
                 },
             ],

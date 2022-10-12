@@ -1,6 +1,100 @@
 {
-    "extends": "@sumdoo/tsconfig/tsconfig.web.json",
-    "include": ["docs/**"],
+     /**
+    * tsconfig 官网文档
+    * https://www.typescriptlang.org/tsconfig
+    *
+    * tsconfig compilerOptions 字段描述
+    * https://blog.csdn.net/weixin_45000761/article/details/124058218
+    */
+    "compilerOptions": {
+        // 目标
+        "target": "ESNext",
+
+        // 模块文件类型
+        "module": "ESNext",
+
+        // 模块文件解析策略
+        "moduleResolution": "Node",
+
+        // 允许类字段使用类型定义
+        "useDefineForClassFields": true,
+
+        // 修复不规范的 Commonjs/AMD/UMO模块转换成 ESM 模块
+        "esModuleInterop": true,
+
+        // 在文件名中强制使用一致的大小写
+        "forceConsistentCasingInFileNames": true,
+
+        // 保持 jsx 代码内容不变
+        "jsx": "preserve",
+
+        // 允许 js 文件
+        "allowJs": false,
+
+        // 检查 js 文件
+        "checkJs": false,
+
+        // 严格模式
+        "strict": true,
+
+        // 是否允许无法访问的代码
+        "allowUnreachableCode": false,
+
+        // switch 分支语句必须包含 return 或者 break 语句
+        "noFallthroughCasesInSwitch": true,
+
+        // 当子类与基类有重名函数时，必须使用 override 标识，防止误覆盖基类函数
+        "noImplicitOverride": true,
+
+        // 检查函数中的所有代码路径以确保它们具有返回值。
+        "noImplicitReturns": true,
+
+        // 对于索引签名的对象访问，默认添加 undefined 类型
+        "noUncheckedIndexedAccess": true,
+
+        // 报告未使用的局部变量错误
+        "noUnusedLocals": true,
+
+        // 报告函数中未使用的参数
+        "noUnusedParameters": true,
+
+        // 允许解析 JSON 模块
+        "resolveJsonModule": true,
+
+        // 隔离模块，实现文件必须是模块
+        "isolatedModules": true,
+
+        // For `<script setup>`
+        // See <https://devblogs.microsoft.com/typescript/announcing-typescript-4-5-beta/#preserve-value-imports>
+        "preserveValueImports": true,
+
+        // 强制对类型使用 “import type” 而不是“import”
+        "importsNotUsedAsValues": "error",
+
+        // 删除注释
+        "removeComments": true,
+
+        // 跳过库的检查
+        "skipLibCheck": true,
+
+        // 库
+        "lib": [
+            "ESNext",
+            "DOM",
+            "DOM.Iterable"
+        ],
+
+        // 类型
+        "types": [
+            "vite/client"
+        ],
+
+        "baseUrl": "."
+    },
+    "include": [
+        "./docs/**/*.ts",
+        "./docs/**/*.tsx",
+    ],
     "exclude": [
         "node_modules",
         "dist"
