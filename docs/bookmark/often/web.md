@@ -1,13 +1,19 @@
-
 # 前端开发
 
 官网文档及常用库
 
 ## 基础文档
 
-- [ES6入门](https://es6.ruanyifeng.com/) - 阮一峰
+- [HTML](https://www.runoob.com/html/html-tutorial.html) - 超文本标记语言
+- [HTML Head](https://htmlhead.dev/) - HTML `<head>` 元素的简单指南
+- [Css](https://www.runoob.com/css/css-tutorial.html) - 层叠样式表
+- [Css3](https://www.runoob.com/css3/css3-tutorial.html) - 最新的 CSS 标准
 - [Sass](https://sass-lang.com/documentation/) - 通过编译成 CSS 的样式表语言，允许使用变量、嵌套规则、混合、函数功能
+- [Javascript](https://www.runoob.com/js/js-tutorial.html) - Web 的编程语言
+- [ECMAScript6 入门教程](https://es6.ruanyifeng.com/) - 阮一峰
+- [Typescript 入门教程](https://es6.ruanyifeng.com/) - 阮一峰
 - [Typescript 官网](https://www.typescriptlang.org/) - 具有类型语法的 JavaScript
+- [Typescript 类型体操姿势合集](https://github.com/type-challenges/type-challenges/blob/main/README.zh-CN.md)
 
 ## Vue 全家桶
 
@@ -16,6 +22,7 @@
 - [pinia](https://pinia.vuejs.org/) - Vue.js 的数据模块管理插件
 - [vue-i18n](https://vue-i18n.intlify.dev/) - Vue.js 的国际化插件
 - [vue-use](https://vueuse.org/) - Vue.js 的 Hooks 函数集合
+- [element-plus](https://element-plus.gitee.io/zh-CN/component/button.html) - 基于 Vue 3，面向设计师和开发者的组件库
 - [vue-devtools](https://devtools.vuejs.org/guide/installation.html) - Vue.js 浏览器调试工具
 - [vue-template-explorer](https://template-explorer.vuejs.org/#eyJzcmMiOiI8ZGl2PkhlbGxvIFdvcmxkPC9kaXY+Iiwib3B0aW9ucyI6e319) - 在线查看模板编译生成的渲染函数
 
@@ -30,6 +37,7 @@
 - [qrcode](https://github.com/soldair/node-qrcode) - 二维码/二维条码生成器
 - [jsbarcode](https://github.com/lindell/JsBarcode#readme) - 条形码生成器
 - [mitt](https://github.com/developit/mitt) - 微型 200b 功能事件发射器
+- [clipboard.js](https://github.com/zenorocha/clipboard.js) - 复制到剪贴板
 - [crypto-js](https://github.com/brix/crypto-js) - 加密标准的 JavaScript 库。
 - [@ctrl/tinycolor](https://tinycolor.vercel.app/) - 可根据主题色生成相关色系
 - [path-to-regexp](https://github.com/pillarjs/path-to-regexp#readme) - 将路径字符串等/user/:name转换为正则表达式
@@ -38,14 +46,12 @@
 
 ## 网页端
 
-- [element-plus](https://element-plus.gitee.io/zh-CN/component/button.html) - 基于 Vue 3，面向设计师和开发者的组件库
 - [element-resize-detector](https://github.com/wnr/element-resize-detector) - 优化了元素的跨浏览器调整大小侦听器。比相关方法快 37 倍
 - [vxe-table](https://vxetable.cn/#/table/start/quick) - CRUD 表格解决方案
 - [sortablejs](https://github.com/SortableJS/Sortable) - 是一个用于可重新排序的拖放列表的 JavaScript 库。
 - [vue.draggable.next](https://github.com/SortableJS/vue.draggable.next) - 基于 SortableJS 封装的 Vue 组件，允许拖放并与视图模型数组同步
 - [jqx-grid](https://www.jqwidgets.com/jquery-widgets-documentation/documentation/jqxgrid/jquery-grid-getting-started.htm?search=) - Grid 是一个功能强大的 jQuery 小部件，解决大数据报表数据展示表格方案
 - [v-contextmenu](https://github.com/heynext/v-contextmenu) - Vue.js 的右键菜单组件
-- [v-clipboard3](https://github.com/JamieCurnow/vue-clipboard3) - Vue.js 的剪切板组件
 - [wangeditor](https://www.wangeditor.com/) - 开源 Web 富文本编辑器，开箱即用，配置简单
 - [jspreadsheet](https://bossanova.uk/jspreadsheet/v4/) - 一个轻量级的 javascript 插件，用于创建在线交互式电子表格
 - [web-data-rocks](https://www.webdatarocks.com/doc/) - 是一个交互式数据透视表，用于数据分析和可视化
@@ -76,7 +82,7 @@
 - [uniapp](https://uniapp.dcloud.net.cn/tutorial/) - 使用 Vue.js 开发应用并支持编译多端小程序
 - [taro](https://taro-docs.jd.com/taro/docs/) - 个开放式跨端跨框架解决方案，支持使用 React/Vue/Nerv 等框架来开发多端小程序
 
-## 工程化
+## 工具链
 
 - [scoop](https://scoop.sh/) - 适用于 Windows 的命令行安装程序
 - [pnpm](https://pnpm.io/zh/) - 快速的，节省磁盘空间的包管理工具
@@ -122,10 +128,10 @@
 
 - [npm](https://www.npmjs.com/) - 在线 Npm 包管理搜索
 - [boot-cdn](https://www.bootcdn.cn/) - 稳定、快速、免费的前端开源项目 CDN 加速服务
-- [readme](https://readme.so/editor) - README 在线编辑
 - [colorhunt](https://colorhunt.co/) - 设计师和艺术家的调色板
 - [icon-park](https://iconpark.oceanengine.com/official) - 在线 Icon 管理（字节跳动）
 - [iconfont](https://www.iconfont.cn/) - 在线 Icon 管理（阿里巴巴）
+- [iconify](https://docs.iconify.design/) - 通用的图标框架
 - [browserslist](https://browsersl.ist/) - 浏览器兼容性配置
 - [browserslist-example](https://github.com/browserslist/browserslist-example) - 使用 browserslist 的网站配置示例列表
 - [can-i-use](https://caniuse.com/) - 前端兼容性在线自查工具
@@ -134,8 +140,10 @@
 - [tiny-png](https://tinify.cn/) - 在线图片智能压缩
 - [omatsuri](https://omatsuri.app/) - 日常使用的浏览器工具
 - [color-namer](https://colornamer.netlify.app/) - 在线颜色命名生成器
+- [readme](https://readme.so/editor) - README 在线编辑
 - [135微信编辑器](https://www.135editor.com/beautify_editor.html)
 - [96微信编辑器](https://bj.96weixin.com/)
+- [即时设计](https://js.design/workspace?pc=true)
 
 ## 扩展
 
@@ -143,3 +151,8 @@
 - [Windi Css](https://windicss.org/guide/) - 下一代实用程序优先的 CSS 框架
 - [qiankun 官方文档](https://qiankun.umijs.org/zh/guide) - 是一个基于 single-spa 的微前端实现库
 - [Electron](https://www.electronjs.org/docs/latest) - 可使用 Vue.js 开发桌面软件的框架
+- [Tauri](https://tauri.app/zh/) - Rust 构建的桌面软件框架
+- [Vscode 插件开发](https://code.visualstudio.com/api)
+- [Rust程序设计语言](https://www.rust-lang.org/zh-CN/learn)
+- [VueHook Plus](http://43.138.187.142:9000/vue-hooks-plus/docs/)
+- [FasTool](https://tobe-fe-dalao.github.io/fastool/guide/URL.html)

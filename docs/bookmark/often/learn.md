@@ -6,16 +6,19 @@
 
 - [前端精读](https://github.com/ascoders/weekly?utm_source=gold_browser_extension)
 - [前端面试](https://github.com/lgwebdream/FE-Interview?utm_source=gold_browser_extension)
-- [Github 中文项目排行榜](https://github.com/GrowingGit/GitHub-Chinese-Top-Charts?utm_source=gold_browser_extension)
 - [编程书籍](https://www.electronjs.org/docs/latest)
+- [Github 官方文档](https://docs.github.com/cn)
+- [Github 中文项目排行榜](https://github.com/GrowingGit/GitHub-Chinese-Top-Charts?utm_source=gold_browser_extension)
+- [中华人民共和国行政区划（五级）：省级、地级、县级、乡级和村级](https://github.com/modood/Administrative-divisions-of-China?utm_source=gold_browser_extension)
+- [整理 GitHub 上高质量、有趣的开源项目](https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo)
 
 ## 哔哩哔哩
 
-- [计算机科学速成课 (B站)](https://www.bilibili.com/video/BV1EW411u7th/?spm_id_from=333.999.0.0&vd_source=6e79f4b68dfe8bd9caa3fea4ec6ef65b)
-- [数据结构 - 浙江大学 (B站)](https://www.bilibili.com/video/BV1JW411i731/?spm_id_from=333.999.0.0)
-- [前端视频周刊 - B站](https://www.bilibili.com/video/BV1Kt4y1x7zT/?spm_id_from=pageDriver&vd_source=6e79f4b68dfe8bd9caa3fea4ec6ef65b)
-- [Hacker News 周报 - B站](https://www.bilibili.com/video/BV16N4y1T7Hu/?spm_id_from=333.337.search-card.all.click&vd_source=6e79f4b68dfe8bd9caa3fea4ec6ef65b)
-
+- [计算机科学速成课](https://www.bilibili.com/video/BV1EW411u7th/?spm_id_from=333.999.0.0&vd_source=6e79f4b68dfe8bd9caa3fea4ec6ef65b)
+- [数据结构 - 浙江大学](https://www.bilibili.com/video/BV1JW411i731/?spm_id_from=333.999.0.0)
+- [前端视频周刊](https://www.bilibili.com/video/BV1Kt4y1x7zT/?spm_id_from=pageDriver&vd_source=6e79f4b68dfe8bd9caa3fea4ec6ef65b)
+- [Hacker News 周报](https://www.bilibili.com/video/BV16N4y1T7Hu/?spm_id_from=333.337.search-card.all.click&vd_source=6e79f4b68dfe8bd9caa3fea4ec6ef65b)
+- [后台管理系统UI界面设计灵感](https://space.bilibili.com/326523650/)
 
 ## 教程类
 
@@ -29,14 +32,15 @@
 - [CS自学指南](https://csdiy.wiki/)
 - [浏览器工作原理](https://github.com/vasanthk/how-web-works)
 - [Github 漫游指南](https://github.phodal.com/#/chapter/Github%E6%BC%AB%E6%B8%B8%E6%8C%87%E5%8D%97)
-- [htmlhead](https://htmlhead.dev/) - HTML `<head>` 元素的简单指南
 - [印记中文](https://docschina.org/) - 国外前端新领域技术文档翻译
-- [DevDocs](https://devdocs.io/) - 将不同语言、框架和库的API汇聚到了一个网页上，可以在一个页面进行搜索
+- [dev-docs](https://devdocs.io/) - 将不同语言、框架和库的API汇聚到了一个网页上，可以在一个页面进行搜索
+- [vscode 官方文档](https://code.visualstudio.com/docs) - 代码编辑器
 - [css-tricks](https://css-tricks.com/) - CSS 技巧
-- [Vscode 代码编辑器文档](https://code.visualstudio.com/docs)
+- [css-inspiration](https://chokcoco.github.io/CSS-Inspiration/#/) - CSS灵感
+- [github-actions](https://github.com/marketplace?type=actions) - Github 自动化部署
+- [移动端设计规范](https://material.io/design)
 
 ## 视频类
-
 
 - [慕课网](https://www.imooc.com/?utm_source=baidu-pc&utm_medium=sem&utm_campaign=brand&utm_content=1&utm_term=brand&bd_vid=11388327471781983055)
 - [中国大学MOOC](https://www.icourse163.org/)
@@ -50,6 +54,7 @@
 - [前端导航](https://www.haorooms.com/nav)
 - [学吧导航](https://www.xue8nav.com/#term-6)
 - [Web前端导航](http://www.alloyteam.com/nav/)
+- [国内低代码平台](https://github.com/taowen/awesome-lowcode)
 
 ## 技术博主
 
