@@ -54,6 +54,12 @@ export default defineConfig({
                         { text: '基础使用', link: '/guide/git/basic' },
                     ],
                 },
+                {
+                    text : 'Vmware 虚拟机',
+                    items: [
+                        { text: 'Ubunto Server 环境搭建', link: '/guide/vmware/ubunto' },
+                    ],
+                },
                 // {
                 //     text : 'Vscode',
                 //     items: [
@@ -81,21 +87,6 @@ export default defineConfig({
                         { text: '设计资源', link: '/bookmark/often/online' },
                     ],
                 },
-                // {
-                //     text : '学习网站',
-                //     items: [
-                //         { text: '文档类', link: '/bookmark/doc-nav/basic'  },
-                //         { text: '视频类', link: '/bookmark/doc-nav/weekly' },
-                //     ],
-                // },
-                // {
-                //     text : '设计资源',
-                //     items: [
-                //         { text: '组件库'        , link: '/bookmark/example/ui'       },
-                //         { text: 'Sass系统'      , link: '/bookmark/example/sass'     },
-                //         { text: '后台管理模板'  , link: '/bookmark/example/template' },
-                //     ],
-                // },
                 {
                     text : '好文收录',
                     items: [
