@@ -1,0 +1,1 @@
+import{_ as e,c as r,o as t,d as a}from"./app.b36e13f7.js";const d=JSON.parse('{"title":"Vue \u76F8\u5173","description":"","frontmatter":{},"headers":[],"relativePath":"bookmark/question/vue.md"}'),n={name:"bookmark/question/vue.md"},o=a("",2),l=[o];function i(s,_,c,u,p,h){return t(),r("div",null,l)}const k=e(n,[["render",i]]);export{d as __pageData,k as default};
