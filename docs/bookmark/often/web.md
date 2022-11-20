@@ -11,7 +11,7 @@
 - [Sass](https://sass-lang.com/documentation/) - 通过编译成 CSS 的样式表语言，允许使用变量、嵌套规则、混合、函数功能
 - [Javascript](https://www.runoob.com/js/js-tutorial.html) - Web 的编程语言
 - [ECMAScript6 入门教程](https://es6.ruanyifeng.com/) - 阮一峰
-- [Typescript 入门教程](https://es6.ruanyifeng.com/) - 阮一峰
+- [Typescript 入门教程](https://ts.xcatliu.com/) - 阮一峰
 - [Typescript 官网](https://www.typescriptlang.org/) - 具有类型语法的 JavaScript
 - [Typescript 类型体操姿势合集](https://github.com/type-challenges/type-challenges/blob/main/README.zh-CN.md)
 

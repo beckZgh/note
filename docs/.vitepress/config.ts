@@ -1,6 +1,6 @@
 /**
  * vitepress 配置文件
- * v22.09.29
+ * v22.11.19
  *
  * https://process1024.github.io/vitepress/config/introduction
  */
@@ -29,23 +29,45 @@ export default defineConfig({
         },
         nav: [
             { text: '笔记', link: '/guide/git/basic'    },
-            // { text: '前端', link: '/front-end-dev/'     },
-            // { text: '后端', link: '/back-end-dev/'      },
-            // { text: '文章', link: '/articles/'          },
             { text: '书签', link: '/bookmark/often/web' },
         ],
         sidebar: {
             '/guide/': [
+                {
+                    text : 'Typescript',
+                    items: [
+                        { text: '基础知识', link: '/guide/typescript/basic' },
+                        { text: '开发实践', link: '/guide/typescript/practice' },
+                    ],
+                },
                 // {
-                //     text : '规范',
+                //     text : 'Nestjs 开发',
                 //     items: [
-                //         { text: '代码规范', link: '/guide/code-lint'   },
-                //         { text: '样式规范', link: '/guide/style-lint'  },
-                //         { text: '提交规范', link: '/guide/commit-lint' },
-                //         { text: '分支规范', link: '/guide/git-branch'  },
-                //         { text: '命名规范', link: '/guide/var-name'    },
-                //         { text: '目录规范', link: '/guide/dir-name'    },
-                //         { text: '主题规范', link: '/guide/theme'       },
+                //         { text: '基础入门'          , link: '/guide/nestjs/index' },
+                //     ],
+                // },
+                // {
+                //     text : 'Oprensety-appx 开发',
+                //     items: [
+                //         { text: '开发约定'          , link: '/guide/openresty/appointment' },
+                //         { text: 'Context '          , link: '/guide/openresty/context' },
+                //         { text: '执行阶段'          , link: '/guide/openresty/phase' },
+                //         { text: 'API开发'           , link: '/guide/openresty/api' },
+                //         { text: '类型定义'          , link: '/guide/openresty/types' },
+                //         { text: '数据缓存'          , link: '/guide/openresty/cache' },
+                //         { text: '权限校验'          , link: '/guide/openresty/auth-valid' },
+                //         { text: 'Http请求'          , link: '/guide/openresty/http-request' },
+                //         { text: 'Cookie 和 Session' , link: '/guide/openresty/cookie-and-session' },
+                //         { text: 'WebSocket'         , link: '/guide/openresty/websocket' },
+                //         { text: '文件上传'          , link: '/guide/openresty/file-upload' },
+                //         { text: 'Mysql'             , link: '/guide/openresty/mysql' },
+                //         { text: '模板渲染'          , link: '/guide/openresty/template-render' },
+                //         { text: '定时任务'          , link: '/guide/openresty/schedule' },
+                //         { text: '日志管理'          , link: '/guide/openresty/logs' },
+                //         { text: '异常处理'          , link: '/guide/openresty/error-handle' },
+                //         { text: '代码调试'          , link: '/guide/openresty/code-debug' },
+                //         { text: '单元测试'          , link: '/guide/openresty/unit-test' },
+                //         { text: '项目部署'          , link: '/guide/openresty/deployment' },
                 //     ],
                 // },
                 {
@@ -60,20 +82,6 @@ export default defineConfig({
                         { text: 'Ubunto Server 环境搭建', link: '/guide/vmware/ubunto' },
                     ],
                 },
-                // {
-                //     text : 'Vscode',
-                //     items: [
-                //         { text: '.editorconfig' , link: '/guide/vscode/editconfig' },
-                //         { text: 'settings.json' , link: '/guide/vscode/settings'   },
-                //         { text: '常用插件'      , link: '/guide/vscode/plugins'    },
-                //     ],
-                // },
-                // {
-                //     text : 'Windows',
-                //     items: [
-                //         { text: '右键打开 cmd 配置' , link: '/guide/window/right-click-to-open-cmd' },
-                //     ],
-                // },
             ],
 
             // 网络书签
@@ -83,8 +91,8 @@ export default defineConfig({
                     items: [
                         { text: '前端开发', link: '/bookmark/often/web'    },
                         { text: 'Node开发', link: '/bookmark/often/node'   },
+                        { text: '开发资源', link: '/bookmark/often/online' },
                         { text: '学习资源', link: '/bookmark/often/learn'  },
-                        { text: '设计资源', link: '/bookmark/often/online' },
                     ],
                 },
                 {

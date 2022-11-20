@@ -39,5 +39,11 @@ module.exports = {
         'react/prop-types': 'off',
 
         'react/jsx-key': 'off',
+
+        'no-multiple-empty-lines': 'off',
+
+        '@typescript-eslint/no-unused-vars'     : 'off',
+        '@typescript-eslint/no-inferrable-types': 'off',
+        '@typescript-eslint/quotes'             : 'off',
     },
 }

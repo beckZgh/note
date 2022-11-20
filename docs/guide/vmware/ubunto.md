@@ -5,8 +5,7 @@
 
 ## 相关资源
 
-- [VMware Workstation Pro](https://pan.baidu.com/s/1Fsd26uhwUhPzmwGTKVT-cw) 网盘下载
-    - 提取码：sqy8
+- [VMware Workstation Pro](https://pan.baidu.com/s/1Fsd26uhwUhPzmwGTKVT-cw) 网盘下载 (提取码：sqy8)
 
 - [Ubuntu Server vmdk文件](https://www.osboxes.org/ubuntu-server/) 下载
 
