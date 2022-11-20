@@ -1,1 +1,0 @@
-import{_ as e,c as o,o as i,d as c}from"./app.b36e13f7.js";const h=JSON.parse('{"title":"Vscode \u5E38\u7528\u63D2\u4EF6","description":"","frontmatter":{},"headers":[],"relativePath":"guide/vscode/plugins.md"}'),d={name:"guide/vscode/plugins.md"},l=c("",2),p=[l];function t(a,s,n,r,_,u){return i(),o("div",null,p)}const m=e(d,[["render",t]]);export{h as __pageData,m as default};
