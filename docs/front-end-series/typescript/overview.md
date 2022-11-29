@@ -1,4 +1,4 @@
-# 基础概览
+# Typescript
 
 ## 为什么需要 Typescript
 
