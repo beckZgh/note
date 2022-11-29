@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as r,d as a}from"./app.79a528cc.js";const u=JSON.parse('{"title":"Vite \u76F8\u5173","description":"","frontmatter":{},"headers":[],"relativePath":"bookmark/question/vite.md"}'),i={name:"bookmark/question/vite.md"},o=a("",2),n=[o];function s(_,c,l,d,h,p){return r(),t("div",null,n)}const m=e(i,[["render",s]]);export{u as __pageData,m as default};

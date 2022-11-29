@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as n}from"./app.79a528cc.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/env/window-font-dev.md"}'),o={name:"guide/env/window-font-dev.md"};function a(r,d,s,c,i,p){return n(),t("div")}const m=e(o,[["render",a]]);export{f as __pageData,m as default};
