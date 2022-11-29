@@ -30,15 +30,7 @@
 - [PowerShell 中 RunspacePool 执行异步多线程任务](https://www.cnblogs.com/felixnet/p/10772146.html)
 - [PowerShell : 如何设置输出颜色，Format-Color让黑乎乎的窗口丰富起来](https://blog.csdn.net/gjmjack/article/details/121179867)
 
-## Typescript
-
-- [掌握 tscofnig.json - ](https://juejin.cn/post/6844904178234458120) - 掘金作者（pingan8787）
-- [深入理解 Typescript](https://jkchao.github.io/typescript-book-chinese/) - 是 [《typescript-book》](https://github.com/basarat/typescript-book/) 书籍的中文翻译
-
 ## Windows
 
 - [在 Windows 上体验 Linux](https://sspai.com/post/43813)
 
-## Git
-
-- [Git 设置代理](https://blog.csdn.net/qq_34147601/article/details/118305793)

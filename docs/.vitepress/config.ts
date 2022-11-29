@@ -1,6 +1,6 @@
 /**
  * vitepress 配置文件
- * v22.11.19
+ * v22.11.29
  *
  * https://process1024.github.io/vitepress/config/introduction
  */
@@ -28,58 +28,60 @@ export default defineConfig({
             next: '下一篇',
         },
         nav: [
-            { text: '笔记', link: '/guide/git/basic'    },
-            { text: '书签', link: '/bookmark/often/web' },
+            { text: '计算机基础' ,  activeMatch: '/computer-basics/' , link: '/computer-basics/'                  },
+            { text: '前端系列'   ,  activeMatch: '/front-end-series/', link: '/front-end-series/typescript/basic' },
+            { text: '后端系列'   ,  activeMatch: '/back-end-series/' , link: '/back-end-series/'                  },
+            { text: '工具 & 环境',  activeMatch: '/tools-and-env/'   , link: '/tools-and-env/git/basic'           },
+            { text: '书签 & 软件',  activeMatch: '/bookmark/'        , link: '/bookmark/web'                      },
         ],
         sidebar: {
-            '/guide/': [
+            '/front-end-series/': [
                 {
                     text : 'Typescript',
                     items: [
-                        { text: '基础知识', link: '/guide/typescript/basic' },
-                        { text: '开发实践', link: '/guide/typescript/practice' },
+                        { text: '基础概览', link: '/front-end-series/typescript/basic' },
+                        { text: '开发实践', link: '/front-end-series/typescript/practice' },
+                        { text: '相关链接', link: '/front-end-series/typescript/bookmark' },
                     ],
                 },
-                // {
-                //     text : 'Nestjs 开发',
-                //     items: [
-                //         { text: '基础入门'          , link: '/guide/nestjs/index' },
-                //     ],
-                // },
-                // {
-                //     text : 'Oprensety-appx 开发',
-                //     items: [
-                //         { text: '开发约定'          , link: '/guide/openresty/appointment' },
-                //         { text: 'Context '          , link: '/guide/openresty/context' },
-                //         { text: '执行阶段'          , link: '/guide/openresty/phase' },
-                //         { text: 'API开发'           , link: '/guide/openresty/api' },
-                //         { text: '类型定义'          , link: '/guide/openresty/types' },
-                //         { text: '数据缓存'          , link: '/guide/openresty/cache' },
-                //         { text: '权限校验'          , link: '/guide/openresty/auth-valid' },
-                //         { text: 'Http请求'          , link: '/guide/openresty/http-request' },
-                //         { text: 'Cookie 和 Session' , link: '/guide/openresty/cookie-and-session' },
-                //         { text: 'WebSocket'         , link: '/guide/openresty/websocket' },
-                //         { text: '文件上传'          , link: '/guide/openresty/file-upload' },
-                //         { text: 'Mysql'             , link: '/guide/openresty/mysql' },
-                //         { text: '模板渲染'          , link: '/guide/openresty/template-render' },
-                //         { text: '定时任务'          , link: '/guide/openresty/schedule' },
-                //         { text: '日志管理'          , link: '/guide/openresty/logs' },
-                //         { text: '异常处理'          , link: '/guide/openresty/error-handle' },
-                //         { text: '代码调试'          , link: '/guide/openresty/code-debug' },
-                //         { text: '单元测试'          , link: '/guide/openresty/unit-test' },
-                //         { text: '项目部署'          , link: '/guide/openresty/deployment' },
-                //     ],
-                // },
+                {
+                    text : 'Vue',
+                    items: [
+                        { text: '相关链接', link: '/front-end-series/vue/bookmark' },
+                    ],
+                },
+                {
+                    text : 'Vue-Il8n',
+                    items: [
+                        { text: '货币符号 & 语言代码', link: '/front-end-series/vue-il8n/symbol-and-lang' },
+                    ],
+                },
+                {
+                    text : 'Vite',
+                    items: [
+                        { text: '相关链接', link: '/front-end-series/vite/bookmark' },
+                    ],
+                },
+                {
+                    text : 'H5-开发',
+                    items: [
+                        { text: '相关链接', link: '/front-end-series/h5-dev/bookmark' },
+                    ],
+                },
+            ],
+
+            '/tools-and-env/': [
                 {
                     text : 'Git',
                     items: [
-                        { text: '基础使用', link: '/guide/git/basic' },
+                        { text: '基础使用', link: '/tools-and-env/git/basic' },
+                        { text: '相关链接', link: '/tools-and-env/git/bookmark' },
                     ],
                 },
                 {
                     text : 'Vmware 虚拟机',
                     items: [
-                        { text: 'Ubunto Server 环境搭建', link: '/guide/vmware/ubunto' },
+                        { text: 'Ubunto Server 环境搭建', link: '/tools-and-env/vmware/ubunto' },
                     ],
                 },
             ],
@@ -89,21 +91,15 @@ export default defineConfig({
                 {
                     text : '站点导航',
                     items: [
-                        { text: '前端开发', link: '/bookmark/often/web'    },
-                        { text: 'Node开发', link: '/bookmark/often/node'   },
-                        { text: '开发资源', link: '/bookmark/often/online' },
-                        { text: '学习资源', link: '/bookmark/often/learn'  },
-                    ],
-                },
-                {
-                    text : '好文收录',
-                    items: [
-                        // { text: '开发环境' , link: '/bookmark/question/vue' },
-                        { text: 'Vue  相关' , link: '/bookmark/question/vue'  },
-                        { text: 'Vite 相关' , link: '/bookmark/question/vite' },
+                        { text: '前端开发'  , link: '/bookmark/web'    },
+                        { text: 'Node开发'  , link: '/bookmark/node'   },
+                        { text: '开发资源'  , link: '/bookmark/online' },
+                        { text: '学习资源'  , link: '/bookmark/learn'  },
+                        { text: '待分类链接', link: '/bookmark/other'  },
                     ],
                 },
             ],
         },
     },
 })
+
